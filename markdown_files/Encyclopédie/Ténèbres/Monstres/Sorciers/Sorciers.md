@@ -1,0 +1,13 @@
+Les sorciers et les sorcières sont les serviteurs de la [[Lune Noire]]. La Lune Noire offre à ses serviteurs une emprise forte sur les Ténèbres, leur permettant de manipuler tous les [[Cercles des Ténèbres|Cercles]] en particulier celui de l'Onyx, central à tous les autres.
+### Pactes
+Les [[Pacte|pactes]] sont la source du pouvoir des sorciers. Il s'agit d'un contrat passé avec la Lune Noire qui leur impose de lourds sacrifices en échange des pouvoirs qu'elle confère. Ces pactes peuvent impliquer le sacrifice d'Innocents voire d'amis, contraindre à un mode de vie grotesque, ou encore à des souffrances quotidiennes à endurer. Les pactes offrent tous des pouvoirs différents qui dépendent de la Lune mineure responsable du pacte. 
+
+Le seul sorcier à pouvoir profiter des pouvoirs de la Lune Noire (et au Cercle de l'Onyx) sans devoir recourir à un pacte est le [[Malin]]. Tous les autres sorciers sans exception sont des Innocents corrompus par la Lune Noire qui ont fini par accepter un pacte. Les Gardiens qui manipulent le Cercle de l'Onyx ne sont pas liés par un pacte : il s'agit d'individus spéciaux disposant d'une grande affinité aux Ténèbres. 
+
+Tous les pactes offrent des pouvoirs différents car ils sont en réalité passés avec une des Lune Noires mineures qui forment la Lune noire majeure, et toutes exercent une influence maléfique spécifique. 
+### Les Couvents
+Les sorciers agissent en secret pour accomplir des rituels sinistres et complexes qu'ils sont les seuls à pouvoir accomplir. Ils se réunissent à cette fin en Couvents. Les Couvent forgent souvent un pacte qui engage l'ensemble du Couvent avec la Lune Noire. Les Couvents sont souvent rivaux et se disputent les faveurs de la Lune Noire, mais tous œuvrent dans le même but : permettre au Malin de revenir et de devenir le plus puissant des Hérauts des Lunes.
+### Apparence
+Les serviteurs de la Lune Noire ont quasiment tous une apparence humaine normale mais leur véritable nature est trahie par des détails que seul un Gardien peut percevoir : pupilles luisantes, odeur de sang, marque noire d'un cercle sur le dos… 
+### Corruption
+La Lune Noire est responsable de la corruption de nombreux Innocents, qui acceptent de la servir en échange des pouvoirs qu'elle leur propose. Le Héraut de la Lune Noire continue de se réincarner, faisant de lui le plus puissant manipulateur des Ténèbres ayant jamais existé. Surnommé le Malin, il se cache désormais dans le Clair-Obscur suite à sa défaite contre Golden Apollo, en attendant que ses serviteurs accomplissent les rituels nécessaires pour sa prochaine résurrection.

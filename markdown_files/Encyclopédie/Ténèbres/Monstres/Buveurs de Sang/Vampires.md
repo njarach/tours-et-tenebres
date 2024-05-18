@@ -1,0 +1,17 @@
+Il est difficile de parler des Buveurs de Sang sans parler de vampires. A vrai dire les Gardiens ne font même plus la distinction étant donné que l'écrasante majorité des [[Buveurs de Sang]] sont des vampires. 
+Les vampires possède d'autres particularités. 
+### Naissance
+Les vampires naissent d'une morsure infligée à un [[Les Innocents|Innocent]]par un [[Vampire Supérieur]]. Contrairement aux [[Lycanthropes]], la qualité d'un vampire ne dépend pas de son ascendant. Un jeune vampire qui réussit à se nourrir suffisamment longtemps de sang frais peut devenir à son tour un vampire supérieur avec des pouvoirs distincts. La naissance d'un jeune vampire peut prendre plusieurs jours voire plusieurs semaines, et nécessiter plus d'une morsure.
+### Clans & Territoires
+Les vampires, à l'instar des meutes de lycanthropes, coexistent au sein de clans. Les clans ne sont pas très soudés en Amérique du Nord, alors qu'en Europe ils constituent de véritables familles. En Californie, les clans servent avant tout à mettre en place des règles pour garantir la survie des vampires les plus puissants et éviter la traque meurtrière des Gardiens, préserver leurs terrains de chasse, etc. De jeunes vampires un peu trop zélés ou cherchant à devenir trop fort trop vite finissent par être éliminés par leurs pairs. 
+
+Les vampires disputent leurs terrains de chasse avec les lycanthropes, ce qui les mènent à souvent s'affronter au beau milieu d'Innocents servant de chair fraîche pour les deux camps. Même si les vampires et les lycanthropes ont tendance à s'éliminer entre eux, il n'est clairement pas recommandé de laisser une telle situation apparaître ou s'envenimer. 
+
+### Habitudes et Pouvoirs
+Les vampires savent rester discrets : boire une grande quantité de sang n'est pas nécessaire pour se nourrir. Une victime séduite, dominée ou dupée par le vampire avant de devenir son repas lui octroiera davantage de pouvoir qu'un festin de dizaines d'Innocents apeurés et drainés jusqu'à la dernière goutte. Ce type de victime ne sait d'ailleurs pas qu'elle a été victime d'une créature des Ténèbres : aucun signe d'anémie, aucune marque de morsure visible (à cause du Déni, mais ces marques sont visibles par les manipulateurs des Ténèbres). Cela rend les actions des vampires plus difficiles à détecter, et ceux qui sortent du rang sont justement ceux qui sont écrasés par les clans afin d'éviter d'attirer l'attention des Tours.
+
+La capacité de régénération d'un vampire majeur ressemble davantage à une forme d'invincibilité, leurs blessures se soignant quasi instantanément. 
+Même si leur puissance physique est inférieure à celle des lycanthropes, les vampires usent de leur vitalité et de leur manipulation supérieure des différents Cercles des Ténèbres afin de venir à bout de leurs ennemis mortels. Un autre atout considérable reste leur capacité de corruption : un vampire même peu puissant peut d'une simple morsure, corrompre immédiatement sa victime et la transformer en [[Goule]]. Les goules cherchent à se nourrir des autres êtres humains, et leur état ne peut être soigné qu'avec la mort du vampire qui les a vu naître. Abattre des goules n'est pas recommandé par les Tours car toutes peuvent être sauvées par certains Gardiens spécialisés dans la purification des Innocents.
+
+### Faiblesse
+Tous les vampires finissent paralysés au moins pendant quelques instants si un pieu leur est enfoncé dans le coeur. 

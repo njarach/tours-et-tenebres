@@ -8,3 +8,8 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/rpg_blog.iml
+/.idea/symfony2.xml
+/.idea/vcs.xml

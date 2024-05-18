@@ -1,0 +1,1 @@
+Un Cercle de Ténèbres très spécifique appartenant à ceux qui reçoivent l'influence de la [[Lune d'Or]]. 
