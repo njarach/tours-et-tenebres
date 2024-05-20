@@ -1,3 +1,9 @@
+---
+title: Les Lunes
+created_at: 2024-05-20
+author: Spiral
+---
+# Les Lunes
 Il y a fort longtemps, à l'aube de la civilisation, les Lunes firent leur apparition. Entités ésotériques venues des confins du cosmos infini avides d'énergie vitale et spirituelle, elles furent naturellement attirées par celles de la Terre. Incapables de se matérialiser dans notre monde, elles choisirent des élus parmi les humains, les changeant à tout jamais en monstres. Les plus puissants de ces monstres étaient les Hérauts des Lunes, et ils furent les premiers vampires, loups garous, sorciers, spectres et autres engeances maléfiques.  
 Le pouvoir qu'exerçaient les Lunes sur la Terre fut appelée '[[Ténèbres]]', et rien ne semblait pouvoir y résister. Alors que tout semblait perdu, des humains réussirent à manipuler ce pouvoir et à l'utiliser pour combattre les Lunes. Ils furent appelés '[[Gardiens]]', et ils mènent depuis lors une lutte acharnée pour sauver l'humanité.
 ### Cycles lunaires

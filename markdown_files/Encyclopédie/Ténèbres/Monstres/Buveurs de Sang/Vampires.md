@@ -1,3 +1,9 @@
+---
+title: Vampires
+created_at: 2024-05-20
+author: Spiral
+---
+# Vampires
 Il est difficile de parler des Buveurs de Sang sans parler de vampires. A vrai dire les Gardiens ne font même plus la distinction étant donné que l'écrasante majorité des [[Buveurs de Sang]] sont des vampires. 
 Les vampires possède d'autres particularités. 
 ### Naissance

@@ -29,15 +29,11 @@ class HomeController extends AbstractController
             throw $this->createNotFoundException('The markdown file does not exist');
         }
 
-        $markdownContent = file_get_contents($filePath);
-        $htmlContent = $this->markdownService->toHtml($markdownContent);
-
-        $filename = basename($filePath, '.md');
-        $title = $this->formatTitle($filename);
+        $parsedContent = $this->markdownService->parseMarkdownFile($filePath);
 
         return $this->render('markdown/render.html.twig', [
-            'content' => $htmlContent,
-            'title' => $title,
+            'content' => $parsedContent['content'],
+            'metadata' => $parsedContent['metadata']
         ]);
     }
 

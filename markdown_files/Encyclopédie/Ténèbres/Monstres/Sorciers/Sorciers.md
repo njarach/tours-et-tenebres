@@ -1,3 +1,9 @@
+---
+title: Sorciers
+created_at: 2024-05-20
+author: Spiral
+---
+# Sorciers
 Les sorciers et les sorcières sont les serviteurs de la [[Lune Noire]]. La Lune Noire offre à ses serviteurs une emprise forte sur les Ténèbres, leur permettant de manipuler tous les [[Cercles des Ténèbres|Cercles]] en particulier celui de l'Onyx, central à tous les autres.
 ### Pactes
 Les [[Pacte|pactes]] sont la source du pouvoir des sorciers. Il s'agit d'un contrat passé avec la Lune Noire qui leur impose de lourds sacrifices en échange des pouvoirs qu'elle confère. Ces pactes peuvent impliquer le sacrifice d'Innocents voire d'amis, contraindre à un mode de vie grotesque, ou encore à des souffrances quotidiennes à endurer. Les pactes offrent tous des pouvoirs différents qui dépendent de la Lune mineure responsable du pacte. 

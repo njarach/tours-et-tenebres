@@ -1,3 +1,9 @@
+---
+title: Les Tours
+created_at: 2024-05-20
+author: Spiral
+---
+# Les Tours
 Les Tours sont des groupes de manipulateurs des Ténèbres, aussi appelés [[Gardiens]], qui ont juré d'utiliser leurs pouvoirs et capacités pour combattre les Lunes et leurs serviteurs. 
 Les Tours sont regroupées sous la direction d'un organisme de direction appelé le Conseil des Tours. Il existe un Conseil des Tours en Amérique du Nord avec une division Ouest, Centre et Est, Amérique Centrale, Europe de l'Ouest, Europe de l'Est, et Asie Orientale. Chaque Conseil est composé de [[Le Bureau des Tours du Conseil de Californie|Bureaux]] qui ont la charge d'une région spécifique. 
 Le Conseil des Tours d'Amérique du Nord Ouest, aussi appelé [[Le Conseil des Tours de Californie -WIP]], est devenu le Conseil le plus influent avec celui d'Europe de l'Est, notamment grâce à son membre le plus actif et le plus puissant nommé "[[Golden Apollo]]" ou "Celui Qui Vit L'Or Avant De Voir Le Jour". 

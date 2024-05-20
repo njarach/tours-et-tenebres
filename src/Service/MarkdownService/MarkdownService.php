@@ -7,6 +7,7 @@ use League\CommonMark\CommonMarkConverter;
 use League\CommonMark\Exception\CommonMarkException;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 use Symfony\Component\Finder\Finder;
+use Symfony\Component\Yaml\Yaml;
 
 class MarkdownService
 {
@@ -70,6 +71,30 @@ class MarkdownService
         }
 
         return null;
+    }
+
+    /**
+     * @throws Exception
+     */
+    public function parseMarkdownFile(string $filePath): array
+    {
+        $content = file_get_contents($filePath);
+
+        // Extract YAML front matter if present
+        if (preg_match('/^---(.*?)---\s*(.*)$/s', $content, $matches)) {
+            $yaml = Yaml::parse($matches[1]);
+            $markdown = $matches[2];
+        } else {
+            $yaml = [];
+            $markdown = $content;
+        }
+
+        $htmlContent = $this->toHtml($markdown);
+
+        return [
+            'metadata' => $yaml,
+            'content' => $htmlContent
+        ];
     }
 
     private function getMarkdownDirectory(): ?string

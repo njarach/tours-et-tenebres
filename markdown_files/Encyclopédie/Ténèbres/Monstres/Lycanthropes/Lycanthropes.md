@@ -1,3 +1,9 @@
+---
+title: Lycanthropes
+created_at: 2024-05-20
+author: Spiral
+---
+# Lycanthropes
 Les lycanthropes sont les serviteurs de la [[Lune Brune]], aussi appelée Lune de la Bête. Les serviteurs de la Lune Brune subissent des transformations plus ou moins importantes en fonction du degré d'influence qu'elle exerce sur eux. Les plus monstrueux d'entre eux finissent par ressembler à d'horribles créatures mi-homme mi bête, telle que le tristement célèbre Loup-Garou. De plus, cette influence, contrairement à d'autres Lunes, s'applique de manière cyclique : elle augmente graduellement jusqu'à atteindre une [[Apogée]], et finit par redescendre au plus bas avant de recommencer. Ces Apogées ont souvent lieu lors des nuits de pleine Lune, mais ce n'est pas toujours le cas. Les Gardiens doivent être vigilants car c'est en ces occasions que les meutes de lycanthropes sortent pour dévorer les Innocents, corps et âme. 
 
 ### Classification

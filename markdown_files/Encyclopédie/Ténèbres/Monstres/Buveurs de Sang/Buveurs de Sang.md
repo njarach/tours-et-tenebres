@@ -1,3 +1,9 @@
+---
+title: Buveurs de Sang
+created_at: 2024-05-20
+author: Spiral
+---
+# Buveurs de Sang
 Les Buveurs de Sang sont les serviteurs de la [[Lune de Sang]], et pour la très grande majorité ce sont des [[Vampires]]. Et lorsque ce ne sont pas des vampires, il y a de fortes chances pour qu'il s'agisse en réalité d'une sorte de vampire qui ne ressemble pas à la description conventionnelle. Et si là encore, le monstre n'est finalement vraiment pas un vampire, il partage quasi systématiquement les mêmes faiblesses que les vampires. 
 
 Alors que les Lunes cherchent à absorber l'énergie vitale et spirituelle des [[Les Innocents]], la Lune de Sang se concentre sur l'énergie vitale. En consommant la chair et surtout le sang des Innocents, les Buveurs de Sang renforcent leurs pouvoirs et leur affinité avec les Ténèbres.

@@ -1,3 +1,9 @@
+---
+title: Le Bureau des Tours du Conseil de Californie
+created_at: 2024-05-20
+author: Spiral
+---
+# Le Bureau des Tours du Conseil de Californie
 Si le Conseil des Tours joue un grand rôle décisionnaire et dispose d'un pouvoir d'action conséquent, c'est grâce aux petites mains qui travaillent jour et nuit pour permettre et faciliter le travail des jeunes Gardiens sur le terrain. De nombreux agents des Bureaux sont d'anciens Gardiens, mais également des initiés aux Ténèbres qui préfèrent le travail en arrière plan à la chasse aux monstre. Enfin, certains agents des Bureaux sont tout simplement irremplaçables : leur formation et leurs capacités sont taillées pour les missions qu'on leur confie.
 
 **Reliquaires :** les reliquaires sont des Gardiens spécialisés dans la confection et l'enchantement d'armes de Gardiens. Ces armes sont fabriqués en matériaux très spéciaux et souvent infusés d'énergie des Ténèbres pour les renforcer ou déclencher la magie qu'ils contiennent. Les armes fabriquées par les reliquaires s'appellent des Reliques (non?!). Souvent, les Ténèbres contenues dans ces objets proviennent de monstres chassés par les Gardiens : sang de vampire, yeux de sorcières, crocs de loup-garou… Fabriquer des Reliques n'est pas simple, et l'opération est coûteuse. Certaines tours dont le niveau de menace est peu élevé ne sont pas même autorisées à dépenser leur budget pour en commander. Les reliquaires sont peu nombreux et travaillent dans l'ombre, car si des serviteurs des Lunes finissaient par les débusquer, cela mettrait en péril un savoir ancien et indispensable au travail des Tours.

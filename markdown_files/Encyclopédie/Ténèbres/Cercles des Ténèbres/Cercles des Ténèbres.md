@@ -1,5 +1,10 @@
-La magie est issue de l'influence des Lunes, et peut être divisées en plusieurs catégories appelées Cercles des [[Ténèbres|Ténèbres affiché]]. Les monstres et les Gardiens doivent se concentrer sur la maîtrise d'un seul Cercle 
-pour canaliser une magie efficace. Les monstres les plus anciens parviennent souvent à en maîtriser plusieurs. 
+---
+title: Cercles des Ténèbres
+created_at: 2024-05-20
+author: Spiral
+---
+# Cercles des Ténèbres
+La magie est issue de l'influence des Lunes, et peut être divisées en plusieurs catégories appelées Cercles des [[Ténèbres]]. Les monstres et les Gardiens doivent se concentrer sur la maîtrise d'un seul Cercle pour canaliser une magie efficace. Les monstres les plus anciens parviennent souvent à en maîtriser plusieurs. 
 ### Cercles principaux
 - [[Cercle de la Racine]] - magie des os,
 - [[Cercle du Rubis]]- magie du sang,

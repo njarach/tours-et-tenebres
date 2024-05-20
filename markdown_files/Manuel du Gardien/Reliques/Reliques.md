@@ -1,3 +1,9 @@
+---
+title: Reliques
+created_at: 2024-05-20
+author: Spiral
+---
+# Reliques
 Les Reliques sont les objets fabriqués par les artisans des Tours, les Reliquaires. Ils sont habituellement fabriqués à l'aide de matériaux spéciaux rares capables de contenir la magie des Ténèbres, et deviennent ainsi des instruments spécialisés des Gardiens pour lutter contre celles-ci. Les Reliquaires sont des spécialistes du Cercle majeur du Fourneau (Force, Onyx et Cuivre).
 ### Règle d'équipements
 Les matériaux octroient des effets différents aux objets qu'ils composent. Ces effets dépendent du Cercle auxquels ils se rattachent. La plupart des matériaux ne tolèrent pas d'être transportés les uns à côté des autres. Un seul Gardien ne peut transporter que 2 consommables et 2 équipements magiques en même temps.
