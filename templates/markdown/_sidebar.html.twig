@@ -1,17 +1,17 @@
-<h1 class="mb-4 text-center text-uppercase">Tours & Ténèbres</h1>
+<h1 class="mb-4 text-uppercase text-center">Tours & Ténèbres</h1>
 <div class="list-group">
     {% for name, item in directoryTree %}
         {% if item.type == 'directory' %}
-            <a href="#collapse-{{ loop.index }}" class="list-group-item list-group-item-action" data-bs-toggle="collapse">
+            <a href="#collapse-{{ loop.index }}" class="list-group-item list-group-item-action text-light bg-dark" data-bs-toggle="collapse">
                 {{ name }}
             </a>
-            <div id="collapse-{{ loop.index }}" class="collapse">
+            <div id="collapse-{{ loop.index }}" class="collapse bg-dark">
                 <ul class="list-group list-group-flush">
                     {{ _self.render_directory(item.files, loop.index) }}
                 </ul>
             </div>
         {% else %}
-            <a href="{{ path('markdown_render', {'filePath': item.path}) }}" class="list-group-item list-group-item-action">
+            <a href="{{ path('markdown_render', {'filePath': item.path}) }}" class="list-group-item list-group-item-action text-light bg-dark">
                 {{ item.name }}
             </a>
         {% endif %}
@@ -19,18 +19,18 @@
 </div>
 {% macro render_directory(directory, parentIndex) %}
     {% for name, item in directory %}
-        <li class="list-group-item">
+        <li class="list-group-item bg-dark text-light">
             {% if item.type == 'directory' %}
-                <a href="#collapse-sub-{{ parentIndex }}-{{ loop.index }}" class="list-group-item list-group-item-action" data-bs-toggle="collapse">
+                <a href="#collapse-sub-{{ parentIndex }}-{{ loop.index }}" class="list-group-item list-group-item-action text-light bg-dark" data-bs-toggle="collapse">
                     {{ name }}
                 </a>
-                <div id="collapse-sub-{{ parentIndex }}-{{ loop.index }}" class="collapse">
+                <div id="collapse-sub-{{ parentIndex }}-{{ loop.index }}" class="collapse bg-dark">
                     <ul class="list-group list-group-flush">
                         {{ _self.render_directory(item.files, parentIndex ~ '-' ~ loop.index) }}
                     </ul>
                 </div>
             {% else %}
-                <a href="{{ path('markdown_render', {'filePath': item.path}) }}" class="list-group-item list-group-item-action">
+                <a hx-boost="true" hx-target="#main-content" hx-select="#content-card" href="{{ path('markdown_render', {'filePath': item.path}) }}" class="list-group-item list-group-item-action text-light bg-dark">
                     {{ item.name }}
                 </a>
             {% endif %}

@@ -32,18 +32,6 @@ class HomeController extends AbstractController
 
         $parsedContent = $this->markdownService->parseMarkdownFile($filePath);
 
-        // Get the previous file path from the session
-        $previousFilePath = $session->get('previous_file_path');
-
-        // Store the current file path in the session
-        $session->set('previous_file_path', $filePath);
-
-        // Extract the previous file name from the path
-        $previousFileName = null;
-        if ($previousFilePath) {
-            $previousFileName = pathinfo($previousFilePath, PATHINFO_FILENAME);
-        }
-
         // Store the current file path in the session
         $session->set('previous_file_path', $filePath);
 
@@ -54,8 +42,6 @@ class HomeController extends AbstractController
         return $this->render('markdown/render.html.twig', [
             'content' => $parsedContent['content'],
             'metadata' => $parsedContent['metadata'],
-            'previous_file_path' => $previousFilePath, // Pass the previous file path to the template
-            'previous_file_name' => $previousFileName, // Pass the previous file name to the template
             'directoryTree' => $directoryTree
         ]);
     }

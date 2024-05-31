@@ -96,6 +96,30 @@
         {% block body %}{% endblock %}
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener('htmx:afterLoad', function () {
+        // Restore the state of the collapsibles
+        const collapsibles = document.querySelectorAll('.collapse');
+        collapsibles.forEach(function (collapse) {
+            const collapseId = collapse.id;
+            const state = localStorage.getItem(collapseId);
+            if (state === 'true') {
+                new bootstrap.Collapse(collapse, { toggle: true });
+            }
+        });
+
+        // Add event listeners to store the state
+        collapsibles.forEach(function (collapse) {
+            collapse.addEventListener('shown.bs.collapse', function () {
+                localStorage.setItem(collapse.id, 'true');
+            });
+            collapse.addEventListener('hidden.bs.collapse', function () {
+                localStorage.setItem(collapse.id, 'false');
+            });
+        });
+    });
+</script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/htmx.org@1.9.12"></script>
 </html>
