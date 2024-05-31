@@ -1,7 +1,23 @@
 {% extends 'base.html.twig' %}
 
+{% block sidebar %}
+    {% include 'markdown/_sidebar.html.twig' %}
+{% endblock %}
+
 {% block body %}
-    <div>
+    <div class="card p-3" id="content-card">
         {{ content|raw }}
+    </div>
+    <div id="navigation-wrapper">
+        <div class="text-center mt-3">
+            <a href="{{ path('home') }}" class="btn text-light btn-neon-vibrant">Retour à la liste</a>
+        </div>
+        {% if previous_file_path is not null %}
+            <div class="text-start mt-3">
+                <a href="{{ path('markdown_render', {'filePath': previous_file_path}) }}" class="btn text-light btn-neon-vibrant">
+                    Retour à {{ previous_file_name }}
+                </a>
+            </div>
+        {% endif %}
     </div>
 {% endblock %}

@@ -1,0 +1,39 @@
+<h1 class="mb-4 text-center text-uppercase">Tours & Ténèbres</h1>
+<div class="list-group">
+    {% for name, item in directoryTree %}
+        {% if item.type == 'directory' %}
+            <a href="#collapse-{{ loop.index }}" class="list-group-item list-group-item-action" data-bs-toggle="collapse">
+                {{ name }}
+            </a>
+            <div id="collapse-{{ loop.index }}" class="collapse">
+                <ul class="list-group list-group-flush">
+                    {{ _self.render_directory(item.files, loop.index) }}
+                </ul>
+            </div>
+        {% else %}
+            <a href="{{ path('markdown_render', {'filePath': item.path}) }}" class="list-group-item list-group-item-action">
+                {{ item.name }}
+            </a>
+        {% endif %}
+    {% endfor %}
+</div>
+{% macro render_directory(directory, parentIndex) %}
+    {% for name, item in directory %}
+        <li class="list-group-item">
+            {% if item.type == 'directory' %}
+                <a href="#collapse-sub-{{ parentIndex }}-{{ loop.index }}" class="list-group-item list-group-item-action" data-bs-toggle="collapse">
+                    {{ name }}
+                </a>
+                <div id="collapse-sub-{{ parentIndex }}-{{ loop.index }}" class="collapse">
+                    <ul class="list-group list-group-flush">
+                        {{ _self.render_directory(item.files, parentIndex ~ '-' ~ loop.index) }}
+                    </ul>
+                </div>
+            {% else %}
+                <a href="{{ path('markdown_render', {'filePath': item.path}) }}" class="list-group-item list-group-item-action">
+                    {{ item.name }}
+                </a>
+            {% endif %}
+        </li>
+    {% endfor %}
+{% endmacro %}
