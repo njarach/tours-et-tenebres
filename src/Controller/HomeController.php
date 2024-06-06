@@ -23,8 +23,8 @@ class HomeController extends AbstractController
     /**
      * @throws Exception
      */
-    #[Route('/markdown/{filePath}', name: 'markdown_render')]
-    public function renderMarkdownFile(string $filePath, SessionInterface $session): Response
+    #[Route('/markdown{filePath}', name: 'markdown_render')]
+    public function renderMarkdownFile(string $filePath): Response
     {
         if (!file_exists($filePath)) {
             throw $this->createNotFoundException('The markdown file does not exist');
@@ -32,8 +32,6 @@ class HomeController extends AbstractController
 
         $parsedContent = $this->markdownService->parseMarkdownFile($filePath);
 
-        // Store the current file path in the session
-        $session->set('previous_file_path', $filePath);
 
         // List of markdown files and directories
         $markdownDirectory = $this->getParameter('kernel.project_dir') . '/markdown_files/';
