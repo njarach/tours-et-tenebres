@@ -20,24 +20,17 @@
                 font-weight: bold;
                 text-transform: uppercase;
             }
+
             #content-card a, li a, .card-body a, .card-header a, .card-header h5 button {
                 text-decoration: none;
-                color: white;
+                color: #bedcde;
                 font-weight: bolder;
+
             }
             #content-card a:hover, li a:hover, .card-body a:hover, .card-header a:hover, .card-header h5 button:hover  {
                 text-decoration: none;
                 color: #01eefc;
                 font-weight: bolder;
-            }
-                /* Remove bullets from unordered lists */
-            ul {
-                list-style-type: none;
-            }
-
-            /* Remove bullets from ordered lists */
-            ol {
-                list-style-type: none;
             }
 
             #content-card {
@@ -69,16 +62,29 @@
                 box-shadow: 0 0 5px #01eefc, 0 0 15px #01eefc, 0 0 30px #01eefc; /* Neon effect */
                 transition: all 0.5s ease; /* Smooth transition */
             }
+
             #sidebar {
                 min-width: 250px;
                 max-width: 250px;
                 background-color: #343a40;
-                padding: 20px;
+                /*padding: 20px;*/
             }
 
             #main-content {
                 flex-grow: 1;
                 padding: 20px;
+            }
+
+            .sidebar-link {
+                text-decoration: none;
+                color: #bedcde;
+                font-weight: bolder;
+            }
+
+            .sidebar-link:hover {
+                text-decoration: none;
+                color: #01eefc;
+                font-weight: bolder;
             }
         </style>
     {% endblock %}

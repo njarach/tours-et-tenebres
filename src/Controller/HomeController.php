@@ -46,7 +46,7 @@ class HomeController extends AbstractController
         ]);
     }
 
-    #[Route('/home',name: 'home')]
+    #[Route('/',name: 'home')]
     public function listMarkdownFiles(): Response
     {
         // List of markdown files and directories
