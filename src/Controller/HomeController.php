@@ -23,7 +23,7 @@ class HomeController extends AbstractController
     /**
      * @throws Exception
      */
-    #[Route('/markdown{filePath}', name: 'markdown_render')]
+    #[Route('/markdown/{filePath}', name: 'markdown_render')]
     public function renderMarkdownFile(string $filePath): Response
     {
         if (!file_exists($filePath)) {
