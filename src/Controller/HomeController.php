@@ -27,7 +27,7 @@ class HomeController extends AbstractController
     public function renderMarkdownFile(string $filePath): Response
     {
         $filePath = urldecode($filePath);
-        $filePath = str_replace(DIRECTORY_SEPARATOR, "'\'", $filePath);
+        $filePath = str_replace("/", "'\'", $filePath);
         if (!file_exists($filePath)) {
             throw $this->createNotFoundException('The markdown file does not exist');
         }
