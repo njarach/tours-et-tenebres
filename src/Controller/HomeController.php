@@ -26,9 +26,14 @@ class HomeController extends AbstractController
     #[Route('/markdown/{filePath}', name: 'markdown_render', requirements: ['filePath' => '.+'])]
     public function renderMarkdownFile(string $filePath): Response
     {
-        $decodedFilePath = urldecode($filePath);
 
-        if (!file_exists($decodedFilePath)) {
+        $decodedFilePath = urldecode($filePath);
+        // Normalize path separators
+        $normalizedPath = str_replace(['\\', '/'], DIRECTORY_SEPARATOR, $decodedFilePath);
+
+//        dd($normalizedPath); // Stop here for debugging// Normalize path separators
+
+        if (!file_exists($normalizedPath)) {
             throw $this->createNotFoundException('The markdown file does not exist');
         }
 
@@ -43,7 +48,7 @@ class HomeController extends AbstractController
     #[Route('/',name: 'home')]
     public function listMarkdownFiles(): Response
     {
-        // List of markdown files and directories
+        // List of markdown files and directories that goes in the sidebar
         $markdownDirectory = $this->getParameter('kernel.project_dir') . '/markdown_files/';
         $directoryTree = $this->scanDirectory($markdownDirectory);
         return $this->render('home/home.html.twig', [
@@ -69,7 +74,7 @@ class HomeController extends AbstractController
         foreach ($finder as $file) {
             $result[$file->getFilenameWithoutExtension()] = [
                 'type' => 'file',
-                'path' => urlencode($file->getRealPath()),
+                'path' => $file->getRealPath(),
                 'name' => $this->formatTitle($file->getFilenameWithoutExtension())
             ];
         }

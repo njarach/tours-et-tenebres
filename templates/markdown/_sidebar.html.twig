@@ -12,7 +12,7 @@
             </div>
         {% else %}
             <div class="ps-3">
-                <a hx-boost="true" hx-push-url="false" hx-target="#main-content" href="{{ path('markdown_render', {'filePath': item.path}, true) }}" class="bg-dark sidebar-link"
+                <a hx-boost="true" hx-push-url="false" hx-target="#main-content" href="{{ path('markdown_render', {'filePath': item.path|url_encode}) }}" class="bg-dark sidebar-link"
                   id="sidebar-link-{{ item.path }}">
                     {{ item.name }}
                 </a>
@@ -34,7 +34,7 @@
                     </span>
                 </div>
             {% else %}
-                <div class="ps-3"><a hx-boost="true" hx-push-url="false" hx-target="#main-content" href="{{ path('markdown_render', {'filePath': item.path}, true) }}" class="bg-dark sidebar-link"
+                <div class="ps-3"><a hx-boost="true" hx-push-url="false" hx-target="#main-content" href="{{ path('markdown_render', {'filePath': item.path|url_encode}) }}" class="bg-dark sidebar-link"
                       id="sidebar-link-{{ item.path }}">
                         {{ item.name }}
                     </a>
