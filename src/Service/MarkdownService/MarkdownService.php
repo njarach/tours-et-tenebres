@@ -47,7 +47,7 @@ class MarkdownService
             $filePath = $this->findMarkdownFile($filePath);
 
             if ($filePath) {
-                $normalizedPath =  str_replace(DIRECTORY_SEPARATOR,"'\'",$filePath);
+                $normalizedPath =  str_replace(DIRECTORY_SEPARATOR,'\\',$filePath);
                 $encodedFilePath = urlencode("$normalizedPath");
                 return "<a hx-boost=true hx-push-url=false hx-target=#main-content href=$encodedFilePath>$linkText</a>";
             } else {
