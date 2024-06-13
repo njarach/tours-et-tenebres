@@ -1,11 +1,3 @@
-{% extends 'base.html.twig' %}
-
-{% block sidebar %}
-    {% include 'markdown/_sidebar.html.twig' %}
-{% endblock %}
-
-{% block body %}
-    <div class="p-3" id="content-card">
-        {{ content|raw }}
-    </div>
-{% endblock %}
+<div class="p-3" id="content-card">
+    {{ content|raw }}
+</div>

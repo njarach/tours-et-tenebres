@@ -26,21 +26,17 @@ class HomeController extends AbstractController
     #[Route('/markdown/{filePath}', name: 'markdown_render')]
     public function renderMarkdownFile(string $filePath): Response
     {
-        if (!file_exists($filePath)) {
+        $decodedFilePath = urldecode($filePath);
+
+        if (!file_exists($decodedFilePath)) {
             throw $this->createNotFoundException('The markdown file does not exist');
         }
 
-        $parsedContent = $this->markdownService->parseMarkdownFile($filePath);
-
-
-        // List of markdown files and directories
-        $markdownDirectory = $this->getParameter('kernel.project_dir') . '/markdown_files/';
-        $directoryTree = $this->scanDirectory($markdownDirectory);
+        $parsedContent = $this->markdownService->parseMarkdownFile($decodedFilePath);
 
         return $this->render('markdown/render.html.twig', [
             'content' => $parsedContent['content'],
-            'metadata' => $parsedContent['metadata'],
-            'directoryTree' => $directoryTree
+            'metadata' => $parsedContent['metadata']
         ]);
     }
 
