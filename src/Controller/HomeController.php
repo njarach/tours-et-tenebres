@@ -26,18 +26,12 @@ class HomeController extends AbstractController
     #[Route('/markdown/{filePath}', name: 'markdown_render', requirements: ['filePath' => '.+'])]
     public function renderMarkdownFile(string $filePath): Response
     {
-
-        $decodedFilePath = urldecode($filePath);
-        // Normalize path separators
-        $normalizedPath = str_replace(['\\', '/'], DIRECTORY_SEPARATOR, $decodedFilePath);
-
-//        dd($normalizedPath); // Stop here for debugging// Normalize path separators
-
-        if (!file_exists($normalizedPath)) {
+        $filePath = urldecode($filePath);
+        if (!file_exists($filePath)) {
             throw $this->createNotFoundException('The markdown file does not exist');
         }
 
-        $parsedContent = $this->markdownService->parseMarkdownFile($decodedFilePath);
+        $parsedContent = $this->markdownService->parseMarkdownFile($filePath);
 
         return $this->render('markdown/render.html.twig', [
             'content' => $parsedContent['content'],
@@ -45,18 +39,19 @@ class HomeController extends AbstractController
         ]);
     }
 
-    #[Route('/',name: 'home')]
+    #[Route('/', name: 'home')]
     public function listMarkdownFiles(): Response
     {
         // List of markdown files and directories that goes in the sidebar
         $markdownDirectory = $this->getParameter('kernel.project_dir') . '/markdown_files/';
-        $directoryTree = $this->scanDirectory($markdownDirectory);
+        $directoryTree = $this->scanDirectory($markdownDirectory, $markdownDirectory);
+
         return $this->render('home/home.html.twig', [
             'directoryTree' => $directoryTree
         ]);
     }
 
-    private function scanDirectory(string $markdownDirectory): array
+    private function scanDirectory(string $markdownDirectory, string $baseDirectory): array
     {
         $finder = new Finder();
         $finder->in($markdownDirectory)->directories()->depth('== 0');
@@ -64,17 +59,20 @@ class HomeController extends AbstractController
         $result = [];
         foreach ($finder as $dir) {
             $dirPath = $dir->getRealPath();
+            $relativeDirPath = str_replace($baseDirectory, '', $dirPath);
             $result[$dir->getFilename()] = [
                 'type' => 'directory',
-                'files' => $this->scanDirectory($dirPath)
+                'files' => $this->scanDirectory($dirPath, $baseDirectory)
             ];
         }
 
         $finder->in($markdownDirectory)->files()->name('*.md')->depth('== 0');
         foreach ($finder as $file) {
+            $filePath = $file->getRealPath();
+            $relativeFilePath = str_replace($baseDirectory, '', $filePath);
             $result[$file->getFilenameWithoutExtension()] = [
                 'type' => 'file',
-                'path' => $file->getRealPath(),
+                'path' => $relativeFilePath,
                 'name' => $this->formatTitle($file->getFilenameWithoutExtension())
             ];
         }
