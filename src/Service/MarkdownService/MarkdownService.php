@@ -48,7 +48,7 @@ class MarkdownService
 
             if ($filePath) {
                 $encodedFilePath = rawurlencode("$filePath");
-                return "<a hx-boost=true hx-target=#main-content href=$encodedFilePath>$linkText</a>";
+                return "<a hx-boost=true hx-push-url=false hx-target=#main-content href=$encodedFilePath>$linkText</a>";
             } else {
                 return $matches[0]; // Return the original text if no file is found
             }

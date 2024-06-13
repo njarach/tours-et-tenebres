@@ -23,7 +23,7 @@ class HomeController extends AbstractController
     /**
      * @throws Exception
      */
-    #[Route('/markdown/{filePath}', name: 'markdown_render')]
+    #[Route('/markdown/{filePath}', name: 'markdown_render', requirements: ['filePath' => '.+'])]
     public function renderMarkdownFile(string $filePath): Response
     {
         $decodedFilePath = urldecode($filePath);
@@ -69,7 +69,7 @@ class HomeController extends AbstractController
         foreach ($finder as $file) {
             $result[$file->getFilenameWithoutExtension()] = [
                 'type' => 'file',
-                'path' => $file->getRealPath(),
+                'path' => urlencode($file->getRealPath()),
                 'name' => $this->formatTitle($file->getFilenameWithoutExtension())
             ];
         }
