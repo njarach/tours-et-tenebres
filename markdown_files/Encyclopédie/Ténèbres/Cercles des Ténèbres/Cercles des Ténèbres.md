@@ -4,7 +4,8 @@ created_at: 2024-05-20
 author: Spiral
 ---
 # Cercles des Ténèbres
-La magie est issue de l'influence des Lunes, et peut être divisées en plusieurs catégories appelées Cercles des [[Ténèbres]]. Les monstres et les Gardiens doivent se concentrer sur la maîtrise d'un seul Cercle pour canaliser une magie efficace. Les monstres les plus anciens parviennent souvent à en maîtriser plusieurs. 
+La magie provenant de l'influence des Lunes peut être divisée en plusieurs catégories appelées Cercles des [[Ténèbres]]. Les monstres et les Gardiens doivent se concentrer sur la maîtrise d'un seul Cercle pour canaliser une magie 
+efficace. Les monstres les plus anciens - et les Gardiens les plus talentueux - peuvent en maîtriser plusieurs. 
 ### Cercles principaux
 - [[Cercle de la Racine]] - magie des os,
 - [[Cercle du Rubis]]- magie du sang,
@@ -14,9 +15,9 @@ La magie est issue de l'influence des Lunes, et peut être divisées en plusieur
 - [[Cercle de l'Instinct]] - magie de la Bête,
 - [[Cercle du Cuivre]] - magie du feu et du chaos,
 - [[Cercle de la Force]] - magie de la force et du corps,
-- [[Cercle de l'Onyx]] - magie du Clair-Obscur et le coeur des Cercles.
+- [[Cercle de l'Onyx]] - magie du Clair-Obscur et le cœur des Cercles.
 ### Cercles de prédilection
-Certains Cercles sont fortement prédominants chez certains monstres, comme par exemple [[Cercle de l'Instinct|l'Instinct]] chez les Lycanthropes ou le Rubis chez les Vampires.   
+Certains Cercles sont fortement prédominants chez certains monstres, par exemple [[Cercle de l'Instinct|l'Instinct]] chez les Lycanthropes ou le Rubis chez les Vampires.   
 ### Catégorisation supérieure
 Les Cercles sont parfois divisés en catégories supérieures appelées Cercles Majeurs. Ainsi selon cette classification il existe :
 * la **Nécromancie** qui regroupe le Rubis, le Masque et la Racine, 
