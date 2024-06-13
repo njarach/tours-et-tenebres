@@ -27,6 +27,7 @@ class HomeController extends AbstractController
     public function renderMarkdownFile(string $filePath): Response
     {
         $filePath = urldecode($filePath);
+        $filePath = str_replace(['\\','/'], DIRECTORY_SEPARATOR, $filePath);
         if (!file_exists($filePath)) {
             throw $this->createNotFoundException('The markdown file does not exist');
         }
@@ -59,7 +60,6 @@ class HomeController extends AbstractController
         $result = [];
         foreach ($finder as $dir) {
             $dirPath = $dir->getRealPath();
-            $relativeDirPath = str_replace($baseDirectory, '', $dirPath);
             $result[$dir->getFilename()] = [
                 'type' => 'directory',
                 'files' => $this->scanDirectory($dirPath, $baseDirectory)
@@ -69,7 +69,7 @@ class HomeController extends AbstractController
         $finder->in($markdownDirectory)->files()->name('*.md')->depth('== 0');
         foreach ($finder as $file) {
             $filePath = $file->getRealPath();
-            $relativeFilePath = str_replace($baseDirectory, '', $filePath);
+            $relativeFilePath = str_replace(['\\','/'], DIRECTORY_SEPARATOR, $filePath);
             $result[$file->getFilenameWithoutExtension()] = [
                 'type' => 'file',
                 'path' => $relativeFilePath,
