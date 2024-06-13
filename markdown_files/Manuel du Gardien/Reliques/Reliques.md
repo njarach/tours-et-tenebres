@@ -31,20 +31,24 @@ La Soie Primitive est récoltée sur des cocons primitifs, ceux d'insectes à so
 **Contraintes** : les échecs du Gardien diminuent fortement la confiance de ses interlocuteurs. Il a -1 pour le reste de la mission dans ses interactions avec eux, et il a -1 sur son prochain jet contre ceux dont il n'a pas réussi à tromper la vigilance. 
 ### Le Rubis
 Le Rubis de Sang, comme l'Onyx ancien, possède des propriétés spéciales introuvables chez le rubis commun. C'est un matériau proche du Cercle qui porte son nom, car il permet à son utilisateur d'utiliser son sang - et donc sa vitalité - pour améliorer ses capacités ou celles d'un allié pendant un court instant.
-[b][h3]La Pierre Incarnée[/h3]
-[/b]
-Communément désignée par le terme 'rune', la Pierre Incarnée est une pierre spéciale réduite en poudre qui est par la suite soigneusement agencée pour tracer des symboles. Ces symboles sont en fait les écrits d'un ancien langage de Gardiens liés à des Lunes mineures vaincues depuis longtemps. La fabrication d'une Pierre Incarnée peut prendre plusieurs années, et consiste à subjuguer les esprits des Gardiens anciens pour les obliger à habiter un simple rocher. Ce processus nécessite de solides compétences dans le Cercle de l'Ether et de la Domination, ce qui n'est pas l'apanage des Reliquaires. En revanche, une fois cette étape délicate terminée, la poudre de la Pierre Incarnée peut servir à tracer de nombreuses runes, pouvant même aller jusqu'à enchanter des balles d'armes à feu standard. Les runes ont souvent le potentiel d'entraver, repousser voire d'immobiliser les Monstres.
-[b][h3]Le Cristal[/h3]
-[/b]
+
+### La Pierre Incarnée
+Communément désignée par le terme 'rune', la Pierre Incarnée est une pierre spéciale réduite en poudre qui est par la suite soigneusement agencée pour tracer des symboles. Ces symboles sont en fait le langage de Lunes 
+mineures vaincues depuis longtemps. La fabrication d'une Pierre Incarnée peut prendre plusieurs années et consiste à subjuguer les esprits des Gardiens anciens pour les obliger à habiter un simple rocher. Ce processus nécessite de solides compétences dans le Cercle de l'Ether et de la Domination, ce qui n'est pas l'apanage des Reliquaires. En revanche, une fois cette étape délicate terminée, la poudre de la Pierre Incarnée peut servir à tracer de nombreuses runes, pouvant même aller jusqu'à enchanter des balles d'armes à feu standard. Les runes ont souvent le potentiel d'entraver, repousser, voire d'immobiliser les Monstres.
+
+### Le Cristal
 Le cristal, souvent légèrement infusé de Ténèbres, est un excellent catalyseur pour le manipulateur qui cherche à tisser un lien spirituel avec une autre entité, qu'il s'agisse d'un Gardien, d'un Monstre ou d'un Innocent, consentant ou non.
-[b][h3]Le Cuivre[/h3]
-[/b]
-Tous les métaux ont des propriétés exploitables par un Reliquaire compétent, mais il faut avouer que le plus impressionant pour les nouveaux Gardiens reste le Cuivre. S'il est correctement enchanté, le Cuivre peut octroyer à son utilisateur le contrôle d'une flamme intense pendant une courte durée. Les plus ardis s'en serviront pour lancer une attaque désespérée contre un adversaire prudent qui verra le coup venir, alors que d'autres réservent l'invocation pour s'assurer une retraite bien sentie en cas de pépin. Bien sûr, les Monstres utilisateurs du Cercle du Cuivre ne sont pas inquiétés par ses effets, mais ils sont extrêmement rares...
-[h3]L'Or[/h3]
+
+### Le Cuivre
+Tous les métaux ont des propriétés exploitables par un Reliquaire compétent, mais il il est vrai que le plus impressionant pour les nouveaux Gardiens reste le Cuivre. S'il est correctement enchanté, le Cuivre peut octroyer à son utilisateur le contrôle d'une flamme intense pendant une courte durée. Les plus ardis s'en serviront pour lancer une attaque désespérée contre un adversaire prudent qui verra le coup venir, alors que d'autres réservent l'invocation pour s'assurer une retraite bien sentie en cas de pépin. Bien sûr, les Monstres utilisateurs du Cercle du Cuivre ne sont pas inquiétés par ses effets, mais ils sont extrêmement rares...
+
+### L'Or
 Une ancienne lignée de puissants Gardiens désormais presque éteinte utilisait l'Or comme substitut à l'Argent. Contrairement à l'Argent, une petite quantité ne suffit pas à conférer des effets magiques. Il est nécessaire que le métal soit fait exclusivement d'Or pur, ce qui explique qu'il soit peu utilisé à cette fin. En revanche, l'Or correctement façonné peut à la fois briser les méandres du Clair-Obscur, renforcer ses capacités physiques, invoquer une égide protection, ou encore renforcer l'Âme, même celle d'un Innocent. L'usage de l'Or en tant que matériau n'est pas rare, mais l'exploitation de ses pleines capacités demeure un mystère que seuls les ancêtres de Golden Apollo étaient en mesure d'élucider.
-[b][h3]La Résine Ancienne[/h3]
-[/b]
+
+### La Résine Ancienne
 C'est une substance étrange, mélange sanglant composé de sang de bête et d'arbres tous deux corrompus par les Ténèbres. La Résine Ancienne offre une conscience primitive à l'objet qu'elle constitue ou recouvre, permettant au manipulateur de s'y lier d'une certaine façon.
 
-Les Reliques qui sont des équipements confèrent un bonus de +1 sur une scène, 1 seule fois par jour. Un équipement peut aussi avoir une version 'explosive' ou 'infusée', ce qui veut dire que son bonus passe à +3 mais seulement pour une seule action au lieu de toute la scène avant de perdre ses effets magiques jusqu'à la prochaine journée. Pour bénéficier d'un bonus le personnage doit y faire appel avant son jet. Ce faisant il met en jeu l'usage de l'objet. Un échec ou des complications peuvent donc faire usage des circonstances liées à l'objet : drain de vitalité imprévu, Ténèbres mal contrôlées, destruction de l'arme, aveuglement inopiné...
+Un équipement peut aussi avoir une version 'explosive' ou 'infusée', ce qui veut dire que son bonus passe à +3 mais seulement pour une seule action au lieu de toute la scène avant de perdre ses effets magiques jusqu'à la 
+prochaine journée. Pour bénéficier d'un bonus le personnage doit y faire appel avant son jet. L'utilisation d'un objet le met en jeu, ce qui veut dire que des conséquences liées à un echec sur le jet de dé peuvent l'affecter 
+(perte, destruction, contrecoup...).
 [br]Les consommables quant à eux octroient un bonus de +2 sur un seul jet, une seule fois par aventure, et peuvent aussi octroyer de l'armure ou de la santé.
