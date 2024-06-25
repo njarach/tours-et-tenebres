@@ -19,6 +19,6 @@ Les vampires savent rester discrets : boire une grande quantité de sang n'est p
 
 Contrairement à d'autres Hémophages, leurs victimes ne présentent pas toujours de signes d'anémie et les traces d'activités d'un Vampire sont difficiles à détecter.
 ### Points forts
-Même si leur puissance physique est inférieure à celle des lycanthropes, les vampires utilisent efficacement la magie et leur vitalité hors-normes afin de venir à bout de leurs ennemis mortels. Un autre atout considérable reste leur capacité de corruption : un vampire même peu puissant peut, d'une simple morsure, corrompre immédiatement sa victime et la transformer en [[Assoiffés]]. Les Assoiffés cherchent à se nourrir des autres êtres humains, et leur état ne peut être soigné qu'avec la mort du vampire qui les a vu naître. Abattre des Assoiffés n'est pas recommandé par les Tours car toutes peuvent être sauvées par certains Gardiens spécialisés dans la purification des Innocents.
+Même si leur puissance physique est inférieure à celle des lycanthropes, les vampires utilisent efficacement la magie et leur vitalité hors-normes afin de venir à bout de leurs ennemis mortels. Un autre atout considérable reste leur capacité de corruption : un vampire même peu puissant peut, d'une simple morsure, corrompre immédiatement sa victime et la transformer en [[Assoiffés]]. 
 ### Points faibles
 Tous les vampires finissent paralysés au moins pendant quelques instants si un pieu leur est enfoncé dans le coeur. 
