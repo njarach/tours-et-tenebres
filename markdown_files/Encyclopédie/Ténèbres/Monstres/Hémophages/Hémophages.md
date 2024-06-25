@@ -8,7 +8,7 @@ Les Hémophages sont les serviteurs de la [[Lune de Sang]], et pour la très gra
 
 La Lune de Sang se nourrit avant tout de l'énergie vitale des [[Les Innocents|Innocents]]. Les Hémophages renforcent leurs pouvoirs et leur affinité avec les Ténèbres en se nourrissant de leur sang. 
 ## Corruption  
-Les Hémophages disposent d'un fort pouvoir corrupteur. Cette corruption peut se faire par la morsure ou par contact avec le sang du monstre qui est le vecteur de puissantes malédictions. Les conséquences de cette corruption varient d'un monstre à l'autre mais la plus répandue est le changement en Goule servile, violente et assoiffée de sang. 
+Les Hémophages disposent d'un fort pouvoir corrupteur. Cette corruption peut se faire par la morsure ou par contact avec le sang du monstre qui est le vecteur de puissantes malédictions. Les conséquences de cette corruption varient d'un monstre à l'autre mais la plus répandue est le changement en créature servile, violente et assoiffée de sang appelée [[Assoiffés|Assoiffé]]. 
 ## Points forts
 Leur principal atout est leur formidable capacité de régénération qui les immunise contre les blessures légères ou les chasseurs mal préparés. Un Hémophage en mesure de s'échapper ne souffrira - à l'inverse de ses poursuivants - d'aucune séquelle du combat qu'il a mené quelques minutes plus tôt.   
 ## Points faibles
