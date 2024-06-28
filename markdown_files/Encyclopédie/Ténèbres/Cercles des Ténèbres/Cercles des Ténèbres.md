@@ -23,6 +23,7 @@ Les Cercles sont parfois divisés en catégories supérieures appelées Cercles 
 * **l'Ether** qui regroupe l'Ether, la Domination et l'Instinct (il est souvent dit que l'Ether, la magie de l'âme, est un mélange des deux autres), 
 * le **Fourneau** pour le Cuivre, la Force et l'Onyx.
 ### Le Cercle Central
-On dit que le Cercle de l'Onyx est central aux autres. L'Onyx représente l'essence des Ténèbres pouvant être convertie en magie. Il permet de détecter son usage, de l'amplifier, de réduire ses effets. Il est particulièrement efficace pour ouvrir des brèches vers et hors du Clair-Obscur. Le Cercle de l'Onyx est le coeur de tous les autres.
+On dit que le Cercle de l'Onyx est central aux autres. L'Onyx représente l'essence des Ténèbres pouvant être convertie en magie. Il permet de détecter son usage, de l'amplifier, de réduire ses effets. C'est aussi lui que 
+l'on utilise pour ouvrir des brèches vers et hors du Clair-Obscur. Le Cercle de l'Onyx est le coeur de tous les autres.
 ### Autres Cercles
 D'autres Cercles moins répandus existent, pour la plupart dérivés des 9 principaux. L'influence isolée de certaines Lunes, disparues ou vaincues, sont héritées au sein de famille de Gardiens ou de Monstres qui sont les derniers pratiquants d'une forme unique de magie. L'un des exemples les plus célèbres est celui du [[Cercle d'Or]].
