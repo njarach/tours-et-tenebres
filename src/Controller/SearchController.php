@@ -37,9 +37,11 @@ class SearchController extends AbstractController
                 $filename = $file->getFilenameWithoutExtension();
                 // Perform a case-insensitive search on the filename
                 if (stripos($filename, $query) !== false) {
+                    $filePath = $file->getRealPath();
+                    $relativeFilePath = str_replace(DIRECTORY_SEPARATOR,'\\',$filePath);
                     $results[] = [
                         'name' => $filename,
-                        'path' => urlencode($file->getRealPath())
+                        'path' => $relativeFilePath
                     ];
                 }
             }

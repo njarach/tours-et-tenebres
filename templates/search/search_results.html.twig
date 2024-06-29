@@ -5,7 +5,7 @@
         <ul>
             {% for result in results %}
                 <li>
-                    <a hx-boost="true" hx-push-url="false" hx-target="#main-content" href="{{ path('markdown_render', {'filePath': result.path}) }}">{{ result.name }}</a>
+                    <a hx-boost="true" hx-push-url="false" hx-target="#main-content" href="{{ path('markdown_render', {'filePath': result.path|url_encode}) }}">{{ result.name }}</a>
                 </li>
             {% endfor %}
         </ul>
