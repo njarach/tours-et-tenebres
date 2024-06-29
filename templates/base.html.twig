@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr" data-bs-theme="dark">
 <head>
-    <meta charset="UTF-8" name="viewport">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}Welcome!{% endblock %}</title>
     <link rel="icon"
           href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>">
     {% block stylesheets %}
         <style>
-            * {
-                color: white;
-            }
-
-            h1 {
-                color: white;
-            }
-
             .card h3,.card h2,.card h4 {
                 color: #01eefc;
                 font-weight: bold;
@@ -61,10 +54,6 @@
                 transition: all 0.5s ease; /* Smooth transition */
             }
 
-            #sidebar {
-                background-color: #343a40;
-                /*padding: 20px;*/
-            }
 
             .sidebar-link {
                 text-decoration: none;
@@ -124,7 +113,7 @@
             </div>
         </div>
         {# Main content #}
-        <main class="col-md-9 p-0 m-0 col-lg-10">
+        <main class="col-md-9 ms-sm-auto col-lg-10">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center border-bottom" id="main-content">
                 {% block body %}{% endblock %}
             </div>
