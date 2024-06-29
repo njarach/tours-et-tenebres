@@ -1,0 +1,13 @@
+{% if results is empty %}
+        <p>No files found matching your query.</p>
+{% else %}
+    <div class="d-flex flex-column"><p>Résultats pour "{{ query }}"</p>
+        <ul>
+            {% for result in results %}
+                <li>
+                    <a hx-boost="true" hx-push-url="false" hx-target="#main-content" href="{{ path('markdown_render', {'filePath': result.path}) }}">{{ result.name }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}

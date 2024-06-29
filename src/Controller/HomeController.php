@@ -6,8 +6,8 @@ use App\Service\MarkdownService\MarkdownService;
 use Exception;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Finder\Finder;
-use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use Symfony\Component\Routing\Attribute\Route;
 
@@ -24,7 +24,7 @@ class HomeController extends AbstractController
      * @throws Exception
      */
     #[Route('/markdown/{filePath}', name: 'markdown_render', requirements: ['filePath' => '.+'])]
-    public function renderMarkdownFile(string $filePath): Response
+    public function renderMarkdownFile(SessionInterface $session, string $filePath): Response
     {
         $filePath = urldecode($filePath);
         $filePath = str_replace('\\',DIRECTORY_SEPARATOR, $filePath);
