@@ -2,11 +2,19 @@
 title: Reliques
 created_at: 2024-05-20
 author: Spiral
+categories:
+  - reliques
 ---
 # Reliques  
 Les Reliques sont les objets fabriqués par les artisans des Tours, les Reliquaires. Ils sont habituellement fabriqués à l'aide de matériaux spéciaux rares capables de contenir la magie des Ténèbres, et deviennent ainsi des instruments spécialisés des Gardiens pour lutter contre celles-ci. Les Reliquaires sont des spécialistes du Cercle majeur du Fourneau (Force, Onyx et Cuivre).  
 ### Règle d'équipements  
-Les matériaux octroient des effets différents aux objets qu'ils composent. Ces effets dépendent du Cercle auxquels ils se rattachent. La plupart des matériaux ne tolèrent pas d'être transportés les uns à côté des autres. Un seul Gardien ne peut transporter que 2 consommables et 2 équipements magiques en même temps.  
+Les matériaux octroient des effets différents aux objets qu'ils composent. Ces effets dépendent du Cercle auxquels ils se rattachent. La plupart des matériaux ne tolèrent pas d'être transportés les uns à côté des autres. Un seul Gardien ne peut transporter que 2 consommables et 2 équipements magiques en même temps. 
+
+Les consommables quant à eux octroient un bonus de +2 sur un seul jet, une seule fois par aventure, et peuvent aussi octroyer de l'armure ou de la santé.
+
+Un équipement peut aussi avoir une version 'explosive' ou 'infusée', ce qui veut dire que son bonus passe à +3 mais seulement pour une seule action au lieu de toute la scène avant de perdre ses effets magiques jusqu'à la prochaine journée. 
+
+Pour bénéficier d'un bonus le personnage doit y faire appel avant son jet. L'utilisation d'un objet le met en jeu, ce qui veut dire que des conséquences liées à un échec sur le jet de dé peuvent l'affecter (souvent un contrecoup magique, mais voir les conséquences d'autres manœuvres).  
 ### L'Onyx  
 Il ne s'agit pas d'onyx commun mais d'Onyx ancien, dont les véritables pouvoirs ne sont visibles qu'aux manipulateurs des Ténèbres. Tout comme le Cercle qui porte son nom, l'Onyx réagit particulièrement bien aux Ténèbres environnantes. Il facilite la manipulation des Cercles ou augmente la résistance du porteur face à ces derniers.   
 **Effets**: +1 sur les scènes dans le Clair-Obscur, +1 lorsque le Gardien utilise 'Use Magic', +1 lorsque le Gardien s'oppose à la magie d'un Cercle.   
@@ -47,8 +55,3 @@ Une ancienne lignée de puissants Gardiens désormais presque éteinte utilisait
   
 ### La Résine Ancienne  
 C'est une substance étrange, mélange sanglant composé de sang de bête et d'arbres tous deux corrompus par les Ténèbres. La Résine Ancienne offre une conscience primitive à l'objet qu'elle constitue ou recouvre, permettant au manipulateur de s'y lier d'une certaine façon.  
-  
-Un équipement peut aussi avoir une version 'explosive' ou 'infusée', ce qui veut dire que son bonus passe à +3 mais seulement pour une seule action au lieu de toute la scène avant de perdre ses effets magiques jusqu'à la   
-prochaine journée. Pour bénéficier d'un bonus le personnage doit y faire appel avant son jet. L'utilisation d'un objet le met en jeu, ce qui veut dire que des conséquences liées à un echec sur le jet de dé peuvent l'affecter   
-(perte, destruction, contrecoup...).  
-[br]Les consommables quant à eux octroient un bonus de +2 sur un seul jet, une seule fois par aventure, et peuvent aussi octroyer de l'armure ou de la santé.

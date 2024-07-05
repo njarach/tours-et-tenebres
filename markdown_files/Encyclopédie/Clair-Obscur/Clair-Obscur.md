@@ -12,7 +12,7 @@ Le Clair-Obscur est divisé en plusieurs lieux, le plus accessible et étendu é
 
 Les Gardiens ne sont jamais allés au delà du Labyrinthe d'Onyx (qu'ils se sont d'ailleurs officiellement en partie approprié pour mener à bien leur mission).
 
-Une fois le labyrinthe franchi, il est alors possible de descendre vers les [[Racines du Monde]] ou d'entamer la montée vers [[L'Orchidée]], lieu supposé d'origine de l'influence des Lunes où leur pouvoir serait omniprésent. Pour atteindre les Racines ou l'Orchidée, il faudrait alors franchir l'une des Portes, les seules connues -bien que jamais atteintes- étant [[La Porte d'Onyx]] et [[La Porte Sélénite]].
+Une fois le labyrinthe franchi, il est alors possible de descendre vers les [[Racines du Monde]] ou d'entamer la montée à travers [[La Canopée|la Canopée]] pour atteindre [[L'Orchidée]], lieu supposé d'origine de l'influence des Lunes où leur pouvoir serait omniprésent. Pour atteindre l'Orchidée, il faudrait franchir l'une des Portes, les seules connues -bien que jamais atteintes- étant [[La Porte d'Onyx]] et [[La Porte Sélénite]].
 ### Influence
 Lorsque le Clair-Obscur influence le monde réel, les lois de la physique deviennent superflues. Le temps peut accélérer ou ralentir, et les Ténèbres peuvent s'y manifester de manière particulièrement vicieuses. Un lieu déformé par le Clair-Obscur se reconnaît à cause des éclats colorés (bleus et roses, parfois orangés) aperçus flottants dans les airs et provenant des Lueurs. 
 ### Accès
